@@ -1,0 +1,3 @@
+1 A vantagem dos controladores conhecerem apenas as interfaces dos servicos eh que, assim, eles tem suas interacoes com outros objetos padronizadas pelas interfaces.
+2 Para criar uma nova estrategia de jogo, criaria uma classe como JogadaServiceAgressivaImpl que implementaria JogadaService. Assim, como os metodos sao padronizados pela interface, ela garantiria que a estrategia seja executada pelo controle.
+3 A vantagem do uso de classes internas desse modo eh que conseguimos posicionar o codigo da classe interna onde ele serah efetivamente usado, facilitando a leitura e o manejo do codigo.

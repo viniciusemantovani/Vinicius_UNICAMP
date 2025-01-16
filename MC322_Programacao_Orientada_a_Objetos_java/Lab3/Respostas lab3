@@ -1,0 +1,15 @@
+LAB3 - Tarefas:
+
+1° - Ao adicionar mais de 10 cartas no baralho ocorre um erro, pois a array não comporta mais de 10 elementos. O erro gerado no console é: Index 10 out of bounds for length 10
+	at base.Baralho.adicionarCarta(Baralho.java:16)
+	at Main.main(Main.java:25);
+
+2° - Ao chamá-lo com a array vazia, o console retorna um erro de index, pois tenta acessar nCartas– que é -1; Erro: Index -1 out of bounds for length 10;
+
+3° - O atributo gerador pode ser estático, pois todos os baralhos usarão o mesmo gerador. Usa-se uma variável estática para indicar que o método pertence à classe, não a um objeto em especial. Já um não estático, se volta aos objetos, não diretamente à classe;
+
+4° - Porque o gerador é um atributo estático, logo ele não precisa ser inicializado para todos os objetos; O comando Random será executado uma só vez em nosso código;
+
+5° - O benefício disso é de não precisar criar um objeto da classe util para usar os métodos estáticos. Quanto ao uso da própria classe util serve para organizar melhor o conjunto componente do programa;
+
+6° - Alocação melhor de memória e uso dos métodos do collection que ajudam na organização e implementação.

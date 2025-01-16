@@ -1,0 +1,6 @@
+1 - a) eh possivel criar um baralho com cartas de diferentes classes, pois as classes Lacaio, Dano, Dano area e Buff são todas instâncias
+da classe Carta, logo, podem ser armazenadas em um mesmo ArrayList;
+1 - b) Para cada uso do metodo usar() a implementacao utilizada eh a da subclasse respectiva, ou seja, para o metodo
+usar() de um objeto de Lacaio, a implementacao usada eh a da classe Lacaio, para o usar() de Dano a implementacao usada eh a de Dano etc.
+
+2 - a) A palavra chave para indicar imutabilidade de uma constante em java é a palavra final.

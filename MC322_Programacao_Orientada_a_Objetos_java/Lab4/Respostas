@@ -1,0 +1,1 @@
+Não é possível acessar o nome diretamente da classe Lacaio. Isso porque, métodos, atributos e classes internas, que sejam private, de uma superclasse não podem ser acessados diretamente por uma subclasse, como é o caso do nome em Carta (é private).

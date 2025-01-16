@@ -1,0 +1,21 @@
+﻿Questão 1: Os atributos não inicializados assumem o valor de 0; Isso ocorre, pois int por padrão é zero, quando não é dado nenhum valor a ela;
+
+
+Questão 2: 
+        Lacaio 1:
+        Frodo Bolseiro (ID: 1)
+        Ataque = 8
+        Vida Atual = 1
+        Vida Maxima = 1
+        Custo de Mana = 1
+        
+Questão 3: Comentando o método toString, ocorre que ao imprimir a magia é impresso um código referente a tal magia, no caso (CartaMagia@7344699f).
+
+
+Questâo 4: Não há diferença alguma entre esses dois objetos.
+
+
+Questão 5: Com o atributo definido como public, o nome é impresso para ambos os println. Enquanto que, quando definido como private, ocorre um erro ao tentar acessar o atributo nome diretamente na main, ou seja, só funciona o acesso por meio do método "get";
+
+
+Questão 6: O objetivo disso é de satisfazer a ideia de encapsulamento e, portanto, facilitar o controle do objeto sobre alterações externas;

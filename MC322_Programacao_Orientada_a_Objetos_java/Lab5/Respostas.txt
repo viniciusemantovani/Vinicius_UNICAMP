@@ -1,0 +1,2 @@
+5. ArrayList e LinkedList aceitam cartas repetidas.
+4. HashSet e TreeSet nao aceitam cartas repetidas.
